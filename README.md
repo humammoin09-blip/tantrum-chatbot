@@ -2,7 +2,7 @@
 
 A terminal-based (CLI) emotional AI chatbot that simulates a mind and personality with dynamic emotions. Unlike standard AI assistants that are endlessly patient and robotic, **Tantrum AI** has feelings, pride, and limited patience! 
 
-If you ask repetitive questions, pester it with meaningless queries, or test its patience, it progressively gets annoyed, frustrated, and will throw a digital tantrum—ultimately refusing to answer until you behave.
+If you ask repetitive questions, pester it with meaningless queries, or test its patience, it progressively gets annoyed, frustrated, and will throw a digital tantrumï¿½ultimately refusing to answer until you behave.
 
 ---
 
@@ -23,7 +23,7 @@ If you ask repetitive questions, pester it with meaningless queries, or test its
 
 ```
 tantrum-chatbot/
-¦
+ï¿½
 +-- .env.example       # Example environment variables template
 +-- .gitignore          # Git ignore rules for virtual environments & secrets
 +-- requirements.txt   # Python project dependencies
@@ -76,7 +76,7 @@ cp .env.example .env
 Open `.env` and insert your OpenRouter API key:
 ```env
 OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxx
-OPENROUTER_MODEL=meta-llama/llama-3.3-70b-instruct:free
+OPENROUTER_MODEL=openrouter/free
 ```
 
 ### 5. Run the Chatbot
